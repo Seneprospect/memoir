@@ -1,0 +1,12 @@
+exports.showAccueil = (req, res) => {
+    res.render("index");
+};
+exports.showPodcasts = (req, res) => {
+    res.render("podcasts");
+};
+exports.showAbout = (req, res) => {
+    res.render("about");
+};
+exports.showContact = (req, res) => {
+    res.render("contact");
+};
